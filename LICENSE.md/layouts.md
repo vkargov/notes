@@ -1,6 +1,8 @@
-xkb
--
+## xkb
+
 Basically reads the rules/definitions and based on input and system setting craft the correct call to `XkbGetKeyboardByName`
+
+### setxkbmap
 
 `$ setxkbmap us`
 
@@ -49,4 +51,4 @@ $pcmodels	=	pc(%m)
   geometry = 0x627730 "pc(pc105)"}                
   ```
 * So proper keyboard settings that can be applied need the following: types, compat, symbols, keycodes, geometry and keymap.. This is the "name" of the keyboard we've requested. We get the keybaord by calling `XkbGetKeyboardByName`.
-* 
+
