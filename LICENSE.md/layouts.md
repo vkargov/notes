@@ -1,8 +1,8 @@
 ## xkb
 
-Basically reads the rules/definitions and based on input and system setting craft the correct call to `XkbGetKeyboardByName`
-
 ### setxkbmap
+
+Basically reads the rules/definitions and based on input and system setting craft the correct call to `XkbGetKeyboardByName`
 
 `$ setxkbmap us`
 
